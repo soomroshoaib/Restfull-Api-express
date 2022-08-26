@@ -3,6 +3,7 @@ import express, { json } from "express"
 const App = express();
 
 App.use(json())
+const port = process.env.Port || 3000;
 
 let Users = []
 
@@ -29,7 +30,7 @@ App.get('/',(req, res)=>{
 })
 
 
-const port = process.env.Port || 3000;
+
 
 App.listen(port,()=>{
     console.log(`Localhost  ${port}`)
