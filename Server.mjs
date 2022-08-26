@@ -32,5 +32,5 @@ App.get('/',(req, res)=>{
 const port = process.env.Port || 4000
 
 App.listen(port,()=>{
-    console.log(`Localhost  ${Port}`)
+    console.log(`Localhost  ${port}`)
 })
