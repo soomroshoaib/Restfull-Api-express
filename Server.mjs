@@ -1,7 +1,7 @@
 import express, { json } from "express"
 
 const App = express();
-const Port = 4000;
+
 App.use(json())
 
 let Users = []
