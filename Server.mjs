@@ -29,7 +29,7 @@ App.get('/',(req, res)=>{
 })
 
 
-const port = process.env.Port || 3000
+const port = process.env.Port || 3000;
 
 App.listen(port,()=>{
     console.log(`Localhost  ${port}`)
